@@ -1,0 +1,107 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-image: linear-gradient(lightgreen,bisque);
+
+}
+li{
+    float: left;
+}
+li,a{
+    color: black;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+li,a:hover{color: #008cff;
+
+}
+h1{
+    color: #008cff;
+    font-family: Calibri;
+    font-size: larger;
+    text-align: left;
+}
+h2{
+    color: orangered;
+    font-family: "Arial Black";
+    font-size: larger;
+    text-align: left;
+}
+h3{
+    color: #e01455;
+    font-family: "Gill Sans MT";
+    font-size: larger;
+    text-align: left;
+}
+h4{
+    color: #342d56;
+    font-family: Leelawadee;
+    font-size: larger;
+    text-align: left;
+}
+
+p{
+    color: #fc06ea;
+    font-family: Calibri;
+    font-size: large;
+}
+body {
+    background-image: url("Gallery/phone1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    font-family: "Dubai Medium";
+    width: 100%;
+    color: deeppink;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px #063b9d dashed;
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #a9f3e1;
+}
+th{
+    color: #f5d32a;
+}
+
+form{
+    color: #2a0131;
+    font-size: larger;
+    font-family: "Arial Black";
+    padding: 20px;
+    border: 5px solid rgba(5, 239, 239, 0.84);
+
+}
+label{
+    width: 240px; display: inline-block;
+    text-align: right;
+}
+
+input {
+    width: 50%;
+    padding: 20px 50px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid sandybrown;
+}
+
+
+input[type=submit]{
+    font-family: "JetBrains Mono ExtraBold";
+    font-size: medium;
+    font-weight: bold;
+    width: 20%;
+    border: 2px solid red;
+}
+input[type=radio]{
+    width: 150px;
+}
